@@ -19,7 +19,10 @@
 ## Findings
 
 ### Finding 1 — DNS Traffic Analysis
-**Filter used:** `dns`  
+**Filter used:** `dns`
+
+![DNS Filter] <img width="1920" height="1080" alt="dns-filter png" src="https://github.com/user-attachments/assets/2f356b20-ccb0-4bde-bac1-22d6d14a29ea" />
+
 **Domains observed:**
 - google.com, play.google.com (Google services)
 - msedge.net, azureedge.net (Microsoft Edge / Azure CDN)
