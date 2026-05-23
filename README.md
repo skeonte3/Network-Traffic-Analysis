@@ -38,7 +38,10 @@ Clean DNS traffic with no indicators of compromise. However, DNS tunneling attac
 ---
 
 ### Finding 2 — HTTP Traffic Analysis
-**Filter used:** `http`  
+**Filter used:** `http`
+
+![Http Filter] <img width="1920" height="1080" alt="http-filter png" src="https://github.com/user-attachments/assets/b84d498c-761f-4774-811c-379d0b747006" />
+
 **Result:** Only 4 unencrypted HTTP packets detected out of 16,000+ total packets  
 **Destination:** ctld1.windowsupdate.com (Windows Update)
 
@@ -51,7 +54,10 @@ Good security posture — encrypted traffic prevents man-in-the-middle (MITM) at
 ---
 
 ### Finding 3 — TCP Reset (RST) Analysis
-**Filter used:** `tcp.flags.reset==1`  
+**Filter used:** `tcp.flags.reset==1`
+
+![Tcp reset filter] <img width="1920" height="1080" alt="tcp-reset-filter png" src="https://github.com/user-attachments/assets/64ad05c5-3c38-4287-84c6-2ee5c20a5cbd" />
+
 **Source IP:** 99.84.237.54  
 **Destination:** 192.168.1.227 (local machine)  
 **Port:** 443
